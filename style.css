@@ -1,0 +1,64 @@
+body {
+  background-color: #eddfc7;
+}
+
+h1 {
+  font-family: "Brush Script MT", Brush Script Std, cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: "ll Roundhand", cursive;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 20px;
+  font-family: "Optima", sans-serif;
+}
+
+.quote-container {
+  text-align: center;
+}
+
+q {
+  font-size: 12px;
+  line-height: .5;
+  margin: 20px;
+  font-family: "Courier", monospace;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.image-container img {
+  width: 200px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.image-container img:hover {
+  width: 300px;
+}
+
+.image-text-top {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.image-text-bottom {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+
